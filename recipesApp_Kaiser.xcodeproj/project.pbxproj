@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3073D02B7E634A004908C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3073CF2B7E634A004908C6 /* AppDelegate.swift */; };
+		3B3073D22B7E634A004908C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3073D12B7E634A004908C6 /* SceneDelegate.swift */; };
+		3B3073D42B7E634A004908C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3073D32B7E634A004908C6 /* ViewController.swift */; };
+		3B3073D72B7E634A004908C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3073D52B7E634A004908C6 /* Main.storyboard */; };
+		3B3073D92B7E634C004908C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3073D82B7E634C004908C6 /* Assets.xcassets */; };
+		3B3073DC2B7E634C004908C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3073DA2B7E634C004908C6 /* LaunchScreen.storyboard */; };
+		3B3073E72B7E634C004908C6 /* recipesApp_KaiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3073E62B7E634C004908C6 /* recipesApp_KaiserTests.swift */; };
+		3B3073F12B7E634C004908C6 /* recipesApp_KaiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3073F02B7E634C004908C6 /* recipesApp_KaiserUITests.swift */; };
+		3B3073F32B7E634C004908C6 /* recipesApp_KaiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3073F22B7E634C004908C6 /* recipesApp_KaiserUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3073E32B7E634C004908C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3073C42B7E634A004908C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3073CB2B7E634A004908C6;
+			remoteInfo = recipesApp_Kaiser;
+		};
+		3B3073ED2B7E634C004908C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3073C42B7E634A004908C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3073CB2B7E634A004908C6;
+			remoteInfo = recipesApp_Kaiser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3073CC2B7E634A004908C6 /* recipesApp_Kaiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipesApp_Kaiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3073CF2B7E634A004908C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B3073D12B7E634A004908C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B3073D32B7E634A004908C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B3073D62B7E634A004908C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B3073D82B7E634C004908C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B3073DB2B7E634C004908C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B3073DD2B7E634C004908C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3073E22B7E634C004908C6 /* recipesApp_KaiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipesApp_KaiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3073E62B7E634C004908C6 /* recipesApp_KaiserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesApp_KaiserTests.swift; sourceTree = "<group>"; };
+		3B3073EC2B7E634C004908C6 /* recipesApp_KaiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipesApp_KaiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3073F02B7E634C004908C6 /* recipesApp_KaiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesApp_KaiserUITests.swift; sourceTree = "<group>"; };
+		3B3073F22B7E634C004908C6 /* recipesApp_KaiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesApp_KaiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3073C92B7E634A004908C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3073DF2B7E634C004908C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3073E92B7E634C004908C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3073C32B7E634A004908C6 = {
+			isa = PBXGroup;
+			children = (
+				3B3073CE2B7E634A004908C6 /* recipesApp_Kaiser */,
+				3B3073E52B7E634C004908C6 /* recipesApp_KaiserTests */,
+				3B3073EF2B7E634C004908C6 /* recipesApp_KaiserUITests */,
+				3B3073CD2B7E634A004908C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3073CD2B7E634A004908C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3073CC2B7E634A004908C6 /* recipesApp_Kaiser.app */,
+				3B3073E22B7E634C004908C6 /* recipesApp_KaiserTests.xctest */,
+				3B3073EC2B7E634C004908C6 /* recipesApp_KaiserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3073CE2B7E634A004908C6 /* recipesApp_Kaiser */ = {
+			isa = PBXGroup;
+			children = (
+				3B3073CF2B7E634A004908C6 /* AppDelegate.swift */,
+				3B3073D12B7E634A004908C6 /* SceneDelegate.swift */,
+				3B3073D32B7E634A004908C6 /* ViewController.swift */,
+				3B3073D52B7E634A004908C6 /* Main.storyboard */,
+				3B3073D82B7E634C004908C6 /* Assets.xcassets */,
+				3B3073DA2B7E634C004908C6 /* LaunchScreen.storyboard */,
+				3B3073DD2B7E634C004908C6 /* Info.plist */,
+			);
+			path = recipesApp_Kaiser;
+			sourceTree = "<group>";
+		};
+		3B3073E52B7E634C004908C6 /* recipesApp_KaiserTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3073E62B7E634C004908C6 /* recipesApp_KaiserTests.swift */,
+			);
+			path = recipesApp_KaiserTests;
+			sourceTree = "<group>";
+		};
+		3B3073EF2B7E634C004908C6 /* recipesApp_KaiserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3073F02B7E634C004908C6 /* recipesApp_KaiserUITests.swift */,
+				3B3073F22B7E634C004908C6 /* recipesApp_KaiserUITestsLaunchTests.swift */,
+			);
+			path = recipesApp_KaiserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3073CB2B7E634A004908C6 /* recipesApp_Kaiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3073F62B7E634C004908C6 /* Build configuration list for PBXNativeTarget "recipesApp_Kaiser" */;
+			buildPhases = (
+				3B3073C82B7E634A004908C6 /* Sources */,
+				3B3073C92B7E634A004908C6 /* Frameworks */,
+				3B3073CA2B7E634A004908C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = recipesApp_Kaiser;
+			productName = recipesApp_Kaiser;
+			productReference = 3B3073CC2B7E634A004908C6 /* recipesApp_Kaiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B3073E12B7E634C004908C6 /* recipesApp_KaiserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3073F92B7E634C004908C6 /* Build configuration list for PBXNativeTarget "recipesApp_KaiserTests" */;
+			buildPhases = (
+				3B3073DE2B7E634C004908C6 /* Sources */,
+				3B3073DF2B7E634C004908C6 /* Frameworks */,
+				3B3073E02B7E634C004908C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3073E42B7E634C004908C6 /* PBXTargetDependency */,
+			);
+			name = recipesApp_KaiserTests;
+			productName = recipesApp_KaiserTests;
+			productReference = 3B3073E22B7E634C004908C6 /* recipesApp_KaiserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B3073EB2B7E634C004908C6 /* recipesApp_KaiserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3073FC2B7E634C004908C6 /* Build configuration list for PBXNativeTarget "recipesApp_KaiserUITests" */;
+			buildPhases = (
+				3B3073E82B7E634C004908C6 /* Sources */,
+				3B3073E92B7E634C004908C6 /* Frameworks */,
+				3B3073EA2B7E634C004908C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3073EE2B7E634C004908C6 /* PBXTargetDependency */,
+			);
+			name = recipesApp_KaiserUITests;
+			productName = recipesApp_KaiserUITests;
+			productReference = 3B3073EC2B7E634C004908C6 /* recipesApp_KaiserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3073C42B7E634A004908C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3B3073CB2B7E634A004908C6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					3B3073E12B7E634C004908C6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3B3073CB2B7E634A004908C6;
+					};
+					3B3073EB2B7E634C004908C6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 3B3073CB2B7E634A004908C6;
+					};
+				};
+			};
+			buildConfigurationList = 3B3073C72B7E634A004908C6 /* Build configuration list for PBXProject "recipesApp_Kaiser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3073C32B7E634A004908C6;
+			productRefGroup = 3B3073CD2B7E634A004908C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3073CB2B7E634A004908C6 /* recipesApp_Kaiser */,
+				3B3073E12B7E634C004908C6 /* recipesApp_KaiserTests */,
+				3B3073EB2B7E634C004908C6 /* recipesApp_KaiserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3073CA2B7E634A004908C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3073DC2B7E634C004908C6 /* LaunchScreen.storyboard in Resources */,
+				3B3073D92B7E634C004908C6 /* Assets.xcassets in Resources */,
+				3B3073D72B7E634A004908C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3073E02B7E634C004908C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3073EA2B7E634C004908C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3073C82B7E634A004908C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3073D42B7E634A004908C6 /* ViewController.swift in Sources */,
+				3B3073D02B7E634A004908C6 /* AppDelegate.swift in Sources */,
+				3B3073D22B7E634A004908C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3073DE2B7E634C004908C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3073E72B7E634C004908C6 /* recipesApp_KaiserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3073E82B7E634C004908C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3073F12B7E634C004908C6 /* recipesApp_KaiserUITests.swift in Sources */,
+				3B3073F32B7E634C004908C6 /* recipesApp_KaiserUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3073E42B7E634C004908C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3073CB2B7E634A004908C6 /* recipesApp_Kaiser */;
+			targetProxy = 3B3073E32B7E634C004908C6 /* PBXContainerItemProxy */;
+		};
+		3B3073EE2B7E634C004908C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3073CB2B7E634A004908C6 /* recipesApp_Kaiser */;
+			targetProxy = 3B3073ED2B7E634C004908C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B3073D52B7E634A004908C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3073D62B7E634A004908C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B3073DA2B7E634C004908C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3073DB2B7E634C004908C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3073F42B7E634C004908C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B3073F52B7E634C004908C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3073F72B7E634C004908C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A67NH8S3S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = recipesApp_Kaiser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.recipesApp-Kaiser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B3073F82B7E634C004908C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A67NH8S3S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = recipesApp_Kaiser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.recipesApp-Kaiser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B3073FA2B7E634C004908C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A67NH8S3S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.recipesApp-KaiserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recipesApp_Kaiser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recipesApp_Kaiser";
+			};
+			name = Debug;
+		};
+		3B3073FB2B7E634C004908C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A67NH8S3S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.recipesApp-KaiserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recipesApp_Kaiser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recipesApp_Kaiser";
+			};
+			name = Release;
+		};
+		3B3073FD2B7E634C004908C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A67NH8S3S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.recipesApp-KaiserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = recipesApp_Kaiser;
+			};
+			name = Debug;
+		};
+		3B3073FE2B7E634C004908C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A67NH8S3S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.recipesApp-KaiserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = recipesApp_Kaiser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3073C72B7E634A004908C6 /* Build configuration list for PBXProject "recipesApp_Kaiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3073F42B7E634C004908C6 /* Debug */,
+				3B3073F52B7E634C004908C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3073F62B7E634C004908C6 /* Build configuration list for PBXNativeTarget "recipesApp_Kaiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3073F72B7E634C004908C6 /* Debug */,
+				3B3073F82B7E634C004908C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3073F92B7E634C004908C6 /* Build configuration list for PBXNativeTarget "recipesApp_KaiserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3073FA2B7E634C004908C6 /* Debug */,
+				3B3073FB2B7E634C004908C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3073FC2B7E634C004908C6 /* Build configuration list for PBXNativeTarget "recipesApp_KaiserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3073FD2B7E634C004908C6 /* Debug */,
+				3B3073FE2B7E634C004908C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B3073C42B7E634A004908C6 /* Project object */;
+}
