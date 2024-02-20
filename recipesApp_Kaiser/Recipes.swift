@@ -22,13 +22,22 @@ public class Recipes {
         self.steps = steps
     }
     
-    init(dict: [String:any]){
+    init(dict: [String:String]){
         if let t = dict["title:"] {
-            
+            title = t
+        } else {
+            title = ""
         }
-        if let s = dict["steps:"]{
-            
+        if let s = dict["steps:"] {
+           steps = s
+        } else {
+            steps = ""
         }
+    }
+    
+    func saveToFirebase() {
+        let dict = ["title:":title,"steps:":steps] as [String:Any]
+        ref.child("Recipes").childByAutoId().setValue(dict)
     }
     
     
