@@ -28,11 +28,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableviewOutlet.dataSource = self
         tableviewOutlet.delegate = self
         //looking for data changes
-        ref.child("Recipes").observeSingleEvent(of: .value) { snapshot in
-            let dict = snapshot.value as! [String:String]
+        ref.child("Recipes").observe(.childAdded) { (snapshot) in
+            let dict = snapshot.value as! [String:Any]
             let r = Recipes(dict: dict)
             r.firebaseKey = snapshot.key
             self.recipesArray.append(r)
+            self.tableviewOutlet.reloadData()
         }
         ref.child("Recipes").observeSingleEvent(of: .value, with: { snapshot in
                 print("--inital load has completed and the last user was read--")
@@ -46,6 +47,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let tempSteps = textViewOutlet.text!
         let r = Recipes(title: tempTitle, steps: tempSteps)
         r.saveToFirebase()
+        tableviewOutlet.reloadData()
+
     }
     
     
@@ -53,7 +56,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        self.recipesArray.count
+        print("the recipes array count is \(recipesArray.count)")
+        return self.recipesArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

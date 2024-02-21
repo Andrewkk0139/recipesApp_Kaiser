@@ -22,15 +22,17 @@ public class Recipes {
         self.steps = steps
     }
     
-    init(dict: [String:String]){
-        if let t = dict["title:"] {
+    init(dict: [String:Any]){
+        if let t = dict["title:"] as? String{
             title = t
         } else {
+            print("no name")
             title = ""
         }
-        if let s = dict["steps:"] {
+        if let s = dict["steps:"] as? String{
            steps = s
         } else {
+            print("no steps")
             steps = ""
         }
     }
